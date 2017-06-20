@@ -15,7 +15,7 @@ it('can be registered with hapi', (done) => {
   server.connection();
   server.register({
     register: Toppsy,
-    options: { namespace: 'example', subsystem: 'server' }
+    options: { namespace: 'example' }
   }, (err) => {
     expect(err).to.not.exist();
     done();

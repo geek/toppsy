@@ -8,7 +8,7 @@ const server = new Hapi.Server();
 server.connection({ port: 8080 });
 server.register({
   register: Toppsy,
-  options: { namespace: 'example', subsystem: 'server' }
+  options: { namespace: 'example' }
 }, (err) => {
   if (err) {
     console.error(err);
