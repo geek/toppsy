@@ -1,6 +1,6 @@
 {
   "name": "toppsy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Telemetry reporting plugin for hapi running with ContainerPilot",
   "main": "lib/",
   "scripts": {
