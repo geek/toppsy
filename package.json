@@ -1,0 +1,30 @@
+{
+  "name": "toppsy",
+  "version": "1.0.0",
+  "description": "Telemetry reporting plugin for hapi running with ContainerPilot",
+  "main": "lib/",
+  "scripts": {
+    "lint": "belly-button --fix",
+    "test": "lab -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geek/toppsy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/geek/toppsy/issues"
+  },
+  "homepage": "https://github.com/geek/toppsy#readme",
+  "devDependencies": {
+    "belly-button": "^3.1.0",
+    "hapi": "^16.4.3",
+    "lab": "^14.0.1"
+  },
+  "dependencies": {
+    "oppsy": "^1.0.2",
+    "putmetric": "^1.0.1"
+  }
+}
